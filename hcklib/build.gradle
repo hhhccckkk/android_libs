@@ -28,7 +28,6 @@ uploadArchives {
         def mavenLib = file(getProperty('mavenPath'))
         repository(url: "file://${mavenLib.absolutePath}")
         pom.project {
-           // version android.defaultConfig.versionName
             version 1.0
             groupId GROUDID
             artifactId ARTIFACTID
