@@ -15,6 +15,10 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        maven{//添加以下配置
+            url 'https://raw.githubusercontent.com/hhhccckkk/android_libs/master'
+        }
+
     }
 }
 

@@ -21,5 +21,6 @@ android {
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile project(':hcklib')
+   // compile project(':hcklib')
+    compile 'com.hck.lib.picter:hck:1.0'
 }
